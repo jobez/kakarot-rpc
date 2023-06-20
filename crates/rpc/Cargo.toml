@@ -28,6 +28,8 @@ reth-rpc-api.workspace = true
 reth-rpc-types.workspace = true
 reth-rlp.workspace = true
 reth-primitives.workspace = true
+reth-downloaders.workspace = true
+reth-interfaces.workspace = true  
 tracing = "0.1.34"
 tracing-subscriber = { version = "0.3.3", features = ["env-filter"] }
 starknet.workspace = true
@@ -51,3 +53,7 @@ features = [
 [[bin]]
 name = "kakarot-rpc"
 path = "src/main.rs"
+
+[[bin]]  
+name = "jhnn"
+path = "src/jhnn.rs"    

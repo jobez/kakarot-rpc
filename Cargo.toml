@@ -17,3 +17,9 @@ reth-rpc-api = { git = "https://github.com/paradigmxyz/reth.git", rev = "8094ab1
 reth-rpc-types = { git = "https://github.com/paradigmxyz/reth.git", rev = "8094ab18dbb230f177babceeb3d72c7a4c424490" }
 reth-rlp = { git = "https://github.com/paradigmxyz/reth.git", rev = "8094ab18dbb230f177babceeb3d72c7a4c424490" }
 reth-primitives = { git = "https://github.com/paradigmxyz/reth.git", rev = "8094ab18dbb230f177babceeb3d72c7a4c424490" }
+reth-downloaders = { git = "https://github.com/paradigmxyz/reth.git", rev = "8094ab18dbb230f177babceeb3d72c7a4c424490", features = ["test-utils"] }
+reth-interfaces = { git = "https://github.com/paradigmxyz/reth.git", rev = "8094ab18dbb230f177babceeb3d72c7a4c424490", features = ["test-utils"] }
+  
+
+  
+  

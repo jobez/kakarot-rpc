@@ -19,6 +19,7 @@ reth-rlp = { workspace = true }
 reth-rpc-api = { workspace = true }
 reth-rpc-types = { workspace = true }
 starknet = { workspace = true }
+starknet_api = { workspace = true }
 thiserror = "1.0.38"
 url = "2.3.1"
 
@@ -31,3 +32,8 @@ tokio = { version = "1.21.2", features = ["macros"] }
 
 wiremock = "0.5.17"
 lazy_static = "1.4.0"
+
+[dev-dependencies]  
+dojo-test-utils =  { path = "/Users/jmsb/exps/internet-computers/starknet/dojo/crates/dojo-test-utils" }
+blockifier = { workspace = true } 
+  
